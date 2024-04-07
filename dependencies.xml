@@ -1,0 +1,26 @@
+<dependencies>
+    <!-- Kafka Clients -->
+    <dependency>
+        <groupId>org.apache.kafka</groupId>
+        <artifactId>kafka-clients</artifactId>
+        <version>YourKafkaVersion</version>
+    </dependency>
+    <!-- DB2 JDBC Driver -->
+    <dependency>
+        <groupId>com.ibm.db2</groupId>
+        <artifactId>jcc</artifactId>
+        <version>YourDB2DriverVersion</version>
+    </dependency>
+    <!-- Spring Boot -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+        <version>YourSpringBootVersion</version>
+    </dependency>
+    <!-- Spring Boot Kafka -->
+    <dependency>
+        <groupId>org.springframework.kafka</groupId>
+        <artifactId>spring-kafka</artifactId>
+        <version>YourSpringKafkaVersion</version>
+    </dependency>
+</dependencies>
